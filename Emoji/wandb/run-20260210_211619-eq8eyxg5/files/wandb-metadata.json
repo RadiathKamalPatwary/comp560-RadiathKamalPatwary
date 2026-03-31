@@ -1,0 +1,38 @@
+{
+  "os":  "macOS-13.5.2-arm64-arm-64bit-Mach-O",
+  "python":  "CPython 3.13.9",
+  "startedAt":  "2026-02-11T02:16:19.262271Z",
+  "args":  [
+    "config/basic.py"
+  ],
+  "program":  "/Users/radiathpatwary/Documents/COMP560/comp560-RadiathKamalPatwary-1/Emoji/../../comp560-nanoGPT/train.py",
+  "git":  {
+    "remote":  "https://github.com/RadiathKamalPatwary/comp560-RadiathKamalPatwary.git",
+    "commit":  "ccc58996ff2c36354d202f134e9b4a944916f8a8"
+  },
+  "email":  "patwaryr@dickinson.edu",
+  "root":  "/Users/radiathpatwary/Documents/COMP560/comp560-RadiathKamalPatwary-1/Emoji",
+  "host":  "Radiaths-MacBook-Air-2.local",
+  "executable":  "/Applications/anaconda3/bin/python",
+  "cpu_count":  8,
+  "cpu_count_logical":  8,
+  "disk":  {
+    "/":  {
+      "total":  "245107195904",
+      "used":  "229864624128"
+    }
+  },
+  "memory":  {
+    "total":  "8589934592"
+  },
+  "apple":  {
+    "name":  "Apple M1",
+    "ecpuCores":  4,
+    "pcpuCores":  4,
+    "gpuCores":  7,
+    "memoryGb":  8,
+    "swapTotalBytes":  "10737418240",
+    "ramTotalBytes":  "8589934592"
+  },
+  "writerId":  "l1ikidhsmakj9s9ktv32i7v0vvjk66s9"
+}

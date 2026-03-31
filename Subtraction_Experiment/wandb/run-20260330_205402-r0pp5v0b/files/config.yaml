@@ -1,0 +1,115 @@
+_wandb:
+    value:
+        cli_version: 0.24.2
+        e:
+            cdvtamgwahikhnpao5klyntnfrejzvlg:
+                apple:
+                    ecpuCores: 4
+                    gpuCores: 7
+                    memoryGb: 8
+                    name: Apple M1
+                    pcpuCores: 4
+                    ramTotalBytes: "8589934592"
+                    swapTotalBytes: "9663676416"
+                args:
+                    - config/1digit.py
+                cpu_count: 8
+                cpu_count_logical: 8
+                disk:
+                    /:
+                        total: "245107195904"
+                        used: "222995398656"
+                email: patwaryr@dickinson.edu
+                executable: /Applications/anaconda3/bin/python
+                git:
+                    commit: ccc58996ff2c36354d202f134e9b4a944916f8a8
+                    remote: https://github.com/RadiathKamalPatwary/comp560-RadiathKamalPatwary.git
+                host: Radiaths-MacBook-Air-2.local
+                memory:
+                    total: "8589934592"
+                os: macOS-13.5.2-arm64-arm-64bit-Mach-O
+                program: /Users/radiathpatwary/Documents/COMP560/comp560-RadiathKamalPatwary-1/Subtraction_Experiment/../../comp560-nanoGPT/train.py
+                python: CPython 3.13.9
+                root: /Users/radiathpatwary/Documents/COMP560/comp560-RadiathKamalPatwary-1/Subtraction_Experiment
+                startedAt: "2026-03-31T00:54:02.175078Z"
+                writerId: cdvtamgwahikhnpao5klyntnfrejzvlg
+        m: []
+        python_version: 3.13.9
+        t:
+            "1":
+                - 1
+            "2":
+                - 1
+            "3":
+                - 13
+                - 16
+            "4": 3.13.9
+            "5": 0.24.2
+            "12": 0.24.2
+            "13": darwin-arm64
+always_save_checkpoint:
+    value: false
+backend:
+    value: nccl
+batch_size:
+    value: 12
+beta1:
+    value: 0.9
+beta2:
+    value: 0.99
+bias:
+    value: false
+block_size:
+    value: 64
+compile:
+    value: false
+dataset:
+    value: 1digit
+decay_lr:
+    value: true
+device:
+    value: cpu
+dropout:
+    value: 0
+dtype:
+    value: float16
+eval_interval:
+    value: 50
+eval_iters:
+    value: 20
+eval_only:
+    value: false
+grad_clip:
+    value: 1
+gradient_accumulation_steps:
+    value: 1
+init_from:
+    value: scratch
+learning_rate:
+    value: 0.001
+log_interval:
+    value: 10
+lr_decay_iters:
+    value: 2000
+max_iters:
+    value: 2000
+min_lr:
+    value: 0.0001
+n_embd:
+    value: 128
+n_head:
+    value: 4
+n_layer:
+    value: 4
+out_dir:
+    value: out/basic/1digit
+wandb_log:
+    value: true
+wandb_project:
+    value: Subtraction_experiments
+wandb_run_name:
+    value: 1 digit Subtractions
+warmup_iters:
+    value: 100
+weight_decay:
+    value: 0.1
