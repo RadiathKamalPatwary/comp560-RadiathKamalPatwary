@@ -10,7 +10,7 @@ log_interval = 10
 # only save when val improves
 always_save_checkpoint = False
 
-wandb_log = True # override via command line if you like
+wandb_log = False # override via command line if you like
 wandb_project = "Subtraction_experiments" # 'jmac-insert-spaces'
 wandb_run_name = "1 digit Subtractions" # 'insert-spaces'
 
