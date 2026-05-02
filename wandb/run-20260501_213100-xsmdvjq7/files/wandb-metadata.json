@@ -1,0 +1,38 @@
+{
+  "os":  "macOS-13.5.2-arm64-arm-64bit-Mach-O",
+  "python":  "CPython 3.13.9",
+  "startedAt":  "2026-05-02T01:31:00.095145Z",
+  "args":  [
+    "WorldCupWinners/Config/basic.py"
+  ],
+  "program":  "/Users/radiathpatwary/Documents/COMP560/comp560-nanoGPT/train.py",
+  "git":  {
+    "remote":  "https://github.com/RadiathKamalPatwary/comp560-RadiathKamalPatwary.git",
+    "commit":  "02d4b6686176b960db4eb1c42508add56fa8138e"
+  },
+  "email":  "patwaryr@dickinson.edu",
+  "root":  "/Users/radiathpatwary/comp560-RadiathKamalPatwary",
+  "host":  "Radiaths-MacBook-Air-2.local",
+  "executable":  "/Applications/anaconda3/bin/python",
+  "cpu_count":  8,
+  "cpu_count_logical":  8,
+  "disk":  {
+    "/":  {
+      "total":  "245107195904",
+      "used":  "236926951424"
+    }
+  },
+  "memory":  {
+    "total":  "8589934592"
+  },
+  "apple":  {
+    "name":  "Apple M1",
+    "ecpuCores":  4,
+    "pcpuCores":  4,
+    "gpuCores":  7,
+    "memoryGb":  8,
+    "swapTotalBytes":  "12884901888",
+    "ramTotalBytes":  "8589934592"
+  },
+  "writerId":  "jhh8askddni4gpiygad2r4zceazyugbb"
+}

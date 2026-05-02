@@ -1,7 +1,7 @@
 # train a miniature character-level model
 # This file is based on an example in Karpathy's nanoGPT.
 
-out_dir = 'out/basic'
+out_dir = 'WorldCupWinners/out/basic'
 eval_interval = 50
 eval_iters = 20
 log_interval = 2
@@ -9,11 +9,11 @@ log_interval = 2
 # only save when val improves
 always_save_checkpoint = False
 
-wandb_log = False # override via command line if you like
+wandb_log = True # override via command line if you like
 wandb_project = 'WorldCupWinners' # 'jmac-insert-spaces'
 wandb_run_name = 'basic 200 iters' # 'insert-spaces'
 
-dataset = 'basic'
+dataset = '/Users/radiathpatwary/comp560-RadiathKamalPatwary/WorldCupWinners/data/basic'
 gradient_accumulation_steps = 1
 batch_size = 12
 block_size = 64
@@ -25,8 +25,8 @@ n_embd = 128  # need n_embd % n_head == 0
 dropout = 0.0
 
 learning_rate = 1e-3
-max_iters = 200
-lr_decay_iters = 200# make equal to max_iters usually
+max_iters = 2000
+lr_decay_iters = 2000# make equal to max_iters usually
 min_lr = 1e-4 # learning_rate / 10 usually
 beta2 = 0.99 # bigger than usual because number of tokens per iter is small
 

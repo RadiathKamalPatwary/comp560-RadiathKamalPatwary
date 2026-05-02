@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "/Users/radiathpatwary/Documents/COMP560/comp560-nanoGPT/train.py", line 252, in <module>
+    X, Y = get_batch('train') # fetch the very first batch
+           ~~~~~~~~~^^^^^^^^^
+  File "/Users/radiathpatwary/Documents/COMP560/comp560-nanoGPT/train.py", line 122, in get_batch
+    data = np.memmap(os.path.join(data_dir, 'train.bin'), dtype=np.uint16, mode='r')
+  File "/Applications/anaconda3/lib/python3.13/site-packages/numpy/_core/memmap.py", line 236, in __new__
+    f_ctx = open(
+        os.fspath(filename),
+        ('r' if mode == 'c' else mode) + 'b'
+    )
+FileNotFoundError: [Errno 2] No such file or directory: 'data/WorldCupWinners/data/basic/train.bin'
